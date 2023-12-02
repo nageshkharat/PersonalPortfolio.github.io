@@ -9,9 +9,9 @@
 }
 
 :root{
-    --bg-color:#e3edf7;
-    --gradient-white-bg:linear-gradient(0deg,#fff 0%,#edf4fa 51%,#e5eef7 100%);
-    --gradient-color-bg:linear-gradient(180deg,rgba(247,1,120,1)0%,
+    --bg-color:#01060c;
+    --gradient-white-bg:linear-gradient(0deg,black 0%,white 51%,#01060c 100%);
+    --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
                                                 rgba(160,8,156,1)51%,
                                                 rgba(99,13,178,1)100%);
     --main-color:#e6006d;
@@ -85,7 +85,7 @@ ul.navlist{
 
 .btn{
     background: var(--gradient-color-bg);
-    color: #fff;
+    color: #01060c;
     padding: 8px 10px;
     border-radius: 5px;
     font-weight: 500;
@@ -113,7 +113,7 @@ ul.navlist{
     width: 100%;
     height: 4px;
     border-radius: 3px;
-    background: #000;
+    background: #f2f0f0;
     margin: 6px 0;
     transition: .4s;
 }
@@ -144,7 +144,7 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 4em;
-    background: var(--gradient-white-bg2);
+    background: var(--gradient-black-bg2);
 }
 
 .hero-info{
@@ -160,6 +160,7 @@ section{
 
 .hero-info h1{
     font-size: 3.5rem;
+    color: var(--font-color);
 }
 
 .text-animate{
@@ -219,13 +220,13 @@ section{
 }
 
 .btn-box .d-CV{
-    background: var(--gradient-white-bg2);
+    background: var(--gradient-black-bg2);
     padding: 10px;
     border-radius: 5px;
     font-weight: 500;
-    color: #000;
-    box-shadow: rgba(60,64,67,0.3)0px 1px 2px 0,
-                  rgba(60,64,67,0.15)0px 2px 6px 2px;
+    color: white;
+    box-shadow: rgb(243, 246, 245) 1px 2px 0,
+                  white 2px 6px 2px;
     transition: all .3s ease;              
 }
 
@@ -241,7 +242,7 @@ section{
     height: 42px;
     font-size: 1.5rem;
     color: var(--main-color);
-    background: #fff;
+    background: #130f0f;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +254,7 @@ section{
 
 .social-media a:hover{
     background: var(--gradient-color-bg);
-    color: #fff;
+    color: #050404;
 }
 
 .bg-icon{
@@ -304,7 +305,7 @@ section{
     width: 442px;
     height: 442px;
     background: red;
-    border: 6px solid #eaeef0;
+    border: 6px solid #060809;
     border-radius: 50%;
     z-index: 1;
     overflow: hidden;
@@ -314,7 +315,7 @@ section{
     content: "";
     position: absolute;
     inset: 20px;
-    background: #00aaff;
+    background: #0a0b0c;
     border-radius: 50%;
     z-index: 1;
 }
@@ -332,9 +333,9 @@ section{
     position: absolute;
     width: 490px;
     height: 490px;
-    background: #f2f6fb;
+    background: violet;
     border-radius: 50%;
-    box-shadow: 0 1px 6px 5.94px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 6px 5.94px magenta;
     animation: rotateText 30s linear infinite;
 }
 
@@ -353,6 +354,7 @@ section{
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    color: var(--font-color);
 }
 
 .about .about-img{
@@ -411,9 +413,9 @@ section{
     border: none;
     font-size: 1rem;
     font-weight: 500;
-    color: #000;
-    box-shadow: rgba(60,64,67,0.3)0px 1px 2px 0,
-                  rgba(60,64,67,0.15)0px 2px 6px 2px;
+    color: black;
+    box-shadow: white 1px 2px 0,
+                  white 2px 6px 2px;
     margin-right: .5rem;
     cursor: pointer;
     transition: all .3s ease;
@@ -472,11 +474,11 @@ section{
 }
 
 .servicesItem{
-    box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
-                  rgba(0,0,0,0.06)0px 1px 2px 0px;
+    box-shadow: white 1px 3px 0,
+                  white 1px 2px 0px;
     padding: 2rem 1rem;
     border-radius: 10px;
-    background: var(--gradient-white-bg2);
+    background: var(--gradient-black-bg2);
     text-align: center;
 }
 
@@ -486,14 +488,14 @@ section{
 }
 
 .icon-services i{
-    box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
-                  rgba(0,0,0,0.06)0px 1px 2px 0px;
+    box-shadow: white 1px 3px 0,
+                  white 1px 2px 0px;
     padding: .5rem;
     border-radius: 50%;
     background: var(--gradient-color-bg);
     width: 70px;
     height: 70px;
-    color: #fff;
+    color: black;
     font-size: 2.5rem;
     display: inline-flex;
     justify-content: center;
@@ -520,6 +522,8 @@ section{
 
 .servicesItem h3{
     margin: 1rem 0 0.5rem;
+    color: var(--font-color);
+
 }
 
 .servicesItem p{
@@ -530,13 +534,13 @@ section{
 
  .readMore{
     background: var(--gradient-white-bg2);
-    box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
-                  rgba(0,0,0,0.06)0px 1px 2px 0px;
+    box-shadow: white 1px 3px 0,
+                  white 1px 2px 0px;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
-    color: #000;
+    color: black;
     margin-right: .8rem;
     cursor: pointer;              
 }
@@ -547,9 +551,9 @@ section{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: var(--gradient-white-bg2);
-    box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
-    rgba(0,0,0,0.06)0px 1px 2px 0px;
+    background: var(--gradient-black-bg2);
+    box-shadow: black 1px 3px 0,
+    black 1px 2px 0px;
     margin-top: 8rem;
     border-radius: 10px;
     padding: 0rem 2rem;
@@ -573,6 +577,8 @@ section{
     margin-bottom: 2rem;
     font-size: 2.3rem;
     font-weight: 800;
+    color: var(--font-color);
+    
 }
 
 .services .text-box .btn{
@@ -635,7 +641,7 @@ section{
     border-radius: 5px;
     border: none;
     font-weight: 500;
-    color: #000;
+    color: black;
     box-shadow: rgba(60,64,67,0.3)0px 1px 2px 0,
     rgba(60,64,67,0.15)0px 2px 6px 2px;
     margin-right: .5rem;
@@ -645,7 +651,7 @@ section{
 
 .fillter-buttons button:hover,button.mixitup-control-active{
     background: var(--gradient-color-bg);
-    color: #fff;
+    color: black;
 }
 
 .portfolio-gallery{
@@ -667,8 +673,8 @@ section{
     align-items: center;
     gap: .5rem;
     padding: .5rem;
-    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
-    background: var(--gradient-white-bg2);
+    box-shadow: black 2px 4px;
+    background: var(--gradient-black-bg2);
     border-radius: 10px;
     transition: all .3s ease;
 }
@@ -716,8 +722,8 @@ section{
 }
 
 .card{
-    background: var(--gradient-white-bg2);
-    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
+    background: var(--gradient-black-bg2);
+    box-shadow: white 2px 4px;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -807,8 +813,8 @@ section{
 
 .contact-info,.skills{
     width: 100%;
-    background: var(--gradient-white-bg2);
-    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
+    background: var(--gradient-black-bg2);
+    box-shadow: white 2px 4px;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -823,9 +829,9 @@ section{
 .contact-info form textarea{
     /* width: 100%; */
     padding: .8rem;
-    border: 2px solid #e8e1e1;
+    border: 2px solid black;
     margin: .5rem 0;
-    background: #e8f1f9;
+    background: black;
     border-radius: 5px;
     outline: none;
     transition: .3s;
@@ -842,7 +848,7 @@ section{
 
 form input:focus,form textarea:focus{
     filter: brightness(100%);
-    background: #d2e9ff;
+    background: black;
     border: 2px solid #f8caca;
 }
 
@@ -887,8 +893,8 @@ form .btn{
     margin-bottom: 1rem;
     padding: 20px;
     border-radius: 50%;
-    box-shadow: rgba(50,50,93,0.25)0px 6px 12px -2px,
-    rgba(0,0,0,0.3)0px 3px 7px -3px;
+    box-shadow: white 6px 12px -2px,
+    white 3px 7px -3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -941,9 +947,10 @@ h2.counter span{
 /*======================= footer ============================ */
 footer{
     text-align: center;
+    color: var(--main-color);
     margin: 0 8%;
     padding: 2rem 0;
-    border-top: 2px solid #e8e1e1;
+    border-top: 2px solid white;
 }
 
 
@@ -958,11 +965,11 @@ footer{
     display: none;
     place-items: center;
     border-radius: 50%;
-    color: #1d002c;
+    color: black;
     cursor: pointer;
-    box-shadow: rgba(50,50,93,0.25)0px 50px 100px -20px,
-    rgba(0,0,0,0.3)0px 30px 60px -30px,
-    rgba(10,37,64,0.35)0px -2px 6px 0px inset;
+    box-shadow: white 50px 100px -20px,
+    black 30px 60px -30px,
+    black -2px 6px 0px inset;
 }
 
 
@@ -972,7 +979,7 @@ footer{
     width: calc(100% - 12px);
     background: var(--gradient-color-bg);
     border-radius: 50%;
-    color: #fff;
+    color: black;
     place-items: center;
     font-size: 25px;
 }
@@ -1114,7 +1121,7 @@ footer{
         display: block;
         background: var(--gradient-white-bg);
         left: 0;
-        border-top: 2px solid rgba(248, 202, 202, .7);
+        border-top: 2px solid rgb(92, 79, 79);
     }
     ul.navlist a{
         font-size: 1.5rem;
