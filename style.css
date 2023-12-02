@@ -884,6 +884,7 @@ form .btn{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--font-color);
 }
 
 .outer-circle{
@@ -904,8 +905,8 @@ form .btn{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    box-shadow: rgba(204,219,232)3px 3px 6px 0px inset,
-    rgba(255,255,255,0.5)-3px -3px 6px 1px inset;
+    box-shadow: rgb(160, 186, 199)3px 3px 6px 0px inset,
+    rgb(255, 255, 255)-3px -3px 6px 1px inset;
 }
 
 .outer-circle svg{
@@ -937,6 +938,7 @@ form .btn{
 
 h2.counter span{
     font-size: 1.7rem;
+    color: var(--main-color);
 }
 
 .sk-title{
@@ -947,7 +949,7 @@ h2.counter span{
 /*======================= footer ============================ */
 footer{
     text-align: center;
-    color: var(--main-color);
+    color: white;
     margin: 0 8%;
     padding: 2rem 0;
     border-top: 2px solid white;
