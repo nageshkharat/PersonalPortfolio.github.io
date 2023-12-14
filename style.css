@@ -9,6 +9,8 @@
 }
 
 :root{
+    background-image: url("content://media/external/downloads/1000142976.gif");
+    background-color: #cccccc;
     --bg-color:#01060c;
     --gradient-white-bg:linear-gradient(0deg,black 0%,white 51%,#01060c 100%);
     --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
