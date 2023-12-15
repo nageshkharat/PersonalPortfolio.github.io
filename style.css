@@ -9,12 +9,12 @@
 }
 
 :root{
-    background-image: url('https://i.stack.imgur.com/kx8MT.gif');
+    background-image: url('/img/giff.gif');
     background-size: cover;      
     height: 100vh;
     padding:0;
     margin:0;
-    background-image: url('file:///C:/Users/Asus/Desktop/index/img/881563d6444b370fa4ceea0c3183bb4c.gif');
+    background-image: url('/img/giff.gif');
     --gradient-white-bg:linear-gradient(0deg,black 0%,white 51%,#01060c 100%);
     --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
                                                 rgba(160,8,156,1)51%,
