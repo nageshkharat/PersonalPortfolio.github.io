@@ -9,9 +9,12 @@
 }
 
 :root{
-    background-image: url("content://media/external/downloads/1000142976.gif");
-    background-color: #cccccc;
-    --bg-color:#01060c;
+    background-image: url('https://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;      
+    height: 100vh;
+    padding:0;
+    margin:0;
+    background-image: url('file:///C:/Users/Asus/Desktop/index/img/881563d6444b370fa4ceea0c3183bb4c.gif');
     --gradient-white-bg:linear-gradient(0deg,black 0%,white 51%,#01060c 100%);
     --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
                                                 rgba(160,8,156,1)51%,
@@ -416,7 +419,7 @@ section{
     font-size: 1rem;
     font-weight: 500;
     color: black;
-    box-shadow: white 1px 2px 0,
+    box-shadow: rgb(13, 12, 12) 1px 2px 0,
                   white 2px 6px 2px;
     margin-right: .5rem;
     cursor: pointer;
@@ -752,6 +755,7 @@ section{
 }
 
 .card-info h2{
+    color: rgb(154, 130, 130);
     font-size: 1.2rem;
     margin-top: 1rem;
 }
@@ -833,7 +837,7 @@ section{
     padding: .8rem;
     border: 2px solid black;
     margin: .5rem 0;
-    background: black;
+    background: rgba(48, 47, 47, 0.566);
     border-radius: 5px;
     outline: none;
     transition: .3s;
@@ -850,7 +854,7 @@ section{
 
 form input:focus,form textarea:focus{
     filter: brightness(100%);
-    background: black;
+    background: rgb(249, 247, 247);
     border: 2px solid #f8caca;
 }
 
