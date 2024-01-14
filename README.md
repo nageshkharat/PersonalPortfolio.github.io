@@ -3,10 +3,12 @@
 Showcasing my skills and projects in the world of web development.
 
 ## Table of Contents
-- [about-the-project](#Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.)
-- [Demo](#You can access the live demo of the portfolio [here](https://your-username.github.io/your-portfolio).
-)
-- [Features](#features)
+- (#Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.)
+- (#You can access the live demo of the portfolio [here](https://your-username.github.io/your-portfolio).)
+- (#- Responsive design for a seamless experience across devices.
+- Project showcase with descriptions and links.
+- About me section to introduce myself.
+- Contact information for potential collaboration or inquiries.)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
