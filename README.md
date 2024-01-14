@@ -35,3 +35,5 @@ Follow these steps to set up the project locally:
 1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
 2. Navigate to the project directory: `cd your-portfolio`
 3. Open the `index.html` file in your browser or use a development server.
+
+##Usage
