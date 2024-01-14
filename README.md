@@ -36,9 +36,9 @@ Follow these steps to set up the project locally:
 Feel free to explore and customize this portfolio for your own use. Update the projects, add your personal touch to the about me section, and make it truly yours.
 
 ## Technologies Used
-HTML5
-CSS3 (Flexbox, Grid)
-JavaScript
+- HTML5
+- CSS3 (Flexbox, Grid)
+- JavaScript
 
 ## Contributing
 If you'd like to contribute to this project, please follow these guidelines and submit a pull request. Report any issues or suggest improvements by opening an issue.
