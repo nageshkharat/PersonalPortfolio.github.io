@@ -3,7 +3,7 @@
 Showcasing my skills and projects in the world of web development.
 
 ## Table of Contents
-- [Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.](#about-the-project)
+- [about-the-project](#Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.)
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
