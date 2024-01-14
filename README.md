@@ -10,9 +10,7 @@ Showcasing my skills and projects in the world of web development.
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
+- 
 ## About the Project
 Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.
 
@@ -30,10 +28,17 @@ You can access the live demo of the portfolio [here](https://nageshkharat.github
 ## Installation
 Follow these steps to set up the project locally:
 
-```bash
-# Example Installation Steps
 1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
 2. Navigate to the project directory: `cd your-portfolio`
 3. Open the `index.html` file in your browser or use a development server.
 
-##Usage
+## Usage
+Feel free to explore and customize this portfolio for your own use. Update the projects, add your personal touch to the about me section, and make it truly yours.
+
+## Technologies Used
+HTML5
+CSS3 (Flexbox, Grid)
+JavaScript
+
+## Contributing
+If you'd like to contribute to this project, please follow these guidelines and submit a pull request. Report any issues or suggest improvements by opening an issue.
