@@ -21,7 +21,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     --gradient-white-bg:linear-gradient(0deg,black 0%,rgb(12, 11, 11) 51%,#01060c 100%);
-    --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
+    --gradient-color-bg:linear-gradient(180deg,rgb(7, 6, 6)0%,
                                                 rgba(160,8,156,1)51%,
                                                 rgba(99,13,178,1)100%);
     --main-color:#e6006d;
