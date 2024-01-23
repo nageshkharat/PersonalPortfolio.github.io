@@ -16,11 +16,11 @@
         background-repeat: no-repeat;
       }*/
       
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fspooked-ya-by-jonas-mosesson--124693483420694731%2F&psig=AOvVaw16GjGFHY7zaenCzJcqeVGe&ust=1705683649410000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDx18C154MDFQAAAAAdAAAAABAD');
+    background-image: url('./img/fav.gif');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    --gradient-white-bg:linear-gradient(0deg,black 0%,white 51%,#01060c 100%);
+    --gradient-white-bg:linear-gradient(0deg,black 0%,rgb(12, 11, 11) 51%,#01060c 100%);
     --gradient-color-bg:linear-gradient(180deg,rgb(222, 203, 212)0%,
                                                 rgba(160,8,156,1)51%,
                                                 rgba(99,13,178,1)100%);
