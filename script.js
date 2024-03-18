@@ -7,7 +7,7 @@ menuIcon.addEventListener("click",()=>{
     document.body.classList.toggle("open");
 });
 
-// remove navlist
+////remove navlist
 navlist.addEventListener("click",()=>{
     navlist.classList.remove("active");
     menuIcon.classList.remove("active");
